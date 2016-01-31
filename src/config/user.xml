@@ -22,14 +22,14 @@
             <result name="success">/user/query.jsp</result>
             <result name="error">/common/error.jsp</result>
         </action>
-        
-        <action name="updateUserAction" class="com.user.controller.UserAction" method="updateUser">
-            <result name="success">/user/query.jsp</result>
-            <result name="error">/common/error.jsp</result>
-        </action>
 
         <action name="modifyUserAction" class="com.user.controller.UserAction" method="modifyUser">
             <result name="success">/user/update.jsp</result>
+            <result name="error">/common/error.jsp</result>
+        </action>
+        
+        <action name="updateUserAction" class="com.user.controller.UserAction" method="updateUser">
+            <result name="success">/user/query.jsp</result>
             <result name="error">/common/error.jsp</result>
         </action>
 
